@@ -1,0 +1,25 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap'); */
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background-image:url("https://e0.pxfuel.com/wallpapers/996/274/desktop-wallpaper-plain-black-and-blue-background-plain-color-background.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.App{
+    text-align: center;
+}
+.App-logo{
+    height: 40vmin;
+    
+}
+
+@media(prefers-reduced-motion:no-preference){
+    .App-logo{
+        animation: App_logo-spin infinite 20s linear;
+    }
+}

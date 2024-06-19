@@ -1,0 +1,80 @@
+:root{
+    --mainColor:aqua;
+}
+header{
+    background-color: var(--mainColor);
+}
+.list{
+    display: flex;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.activeItem{
+    color: orange;
+    border-bottom: .1em double white;
+}
+.container{
+    width: 95%;
+    /* background-color: orange; */
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.container-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.image{
+    width: 50px;
+    padding: .5em 0;
+    border-radius: 50%;
+}
+.listitem{
+    margin-left: 1em;
+    color:white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: 'Poppins',sans-serif;
+}
+.icon{
+    color: #fff;
+    font-size: 1.5rem !important;
+    margin-left: 1.5rem;
+    margin-right: 1rem;
+}
+
+@media screen and (max-width:1100px){
+    .icon{
+        
+        margin-left: 1rem;
+        
+    }
+}
+@media screen and (max-width:768px){
+    html{
+        font-size: 13px;
+    }
+.container-flex{
+    flex-direction: column;
+}
+.image{
+    width: 100px;
+}
+}
+@media screen and (max-width:568px){
+    html{
+        font-size: 11px;
+    }
+    .list{
+        flex-direction: column;
+    }
+    .listitem{
+        margin-top: .2em;
+    }
+    .image{
+        width:20px;
+    }
+    .icon{
+        margin:1em 1.5em;
+    }
+}
